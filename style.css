@@ -57,7 +57,7 @@
 
 @media(max-width : 468px){
     .calc{
-        width: 95%;
+        max-width: 90%;
         margin: 10px auto;
     }
 
