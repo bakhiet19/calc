@@ -50,6 +50,7 @@
 @media(max-width : 768px){
     .calc{
         max-width: 90%;
+        min-width: 90%;
         margin: 10px auto;
     }
 
@@ -57,7 +58,7 @@
 
 @media(max-width : 468px){
     .calc{
-        max-width: 90%;
+        max-width: 90%;min-width: 90%;
         margin: 10px auto;
     }
 
