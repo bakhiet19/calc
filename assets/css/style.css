@@ -8,6 +8,7 @@
     margin: 50px auto;
     border: 3px solid #9ebce9;
     max-width: 40%;
+    background-color: #bbb;
 }
 
 .calc .result{
