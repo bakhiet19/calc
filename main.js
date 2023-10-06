@@ -1,6 +1,6 @@
-let res = document.querySelector('.result');
+const res = document.querySelector('.result');
 const nums = document.querySelectorAll('.nums .num');
-let a = document.getElementById('a').value;
+const equal = document.getElementById('equal').value;
 
 
 
@@ -10,7 +10,7 @@ let a = document.getElementById('a').value;
 
 nums.forEach(function(e){
     e.addEventListener('click' , function(){  
-        if(e.value === a){
+        if(e.value === equal){
             if(res.innerHTML == ''){
                 res.innerHTML = ''
             }
@@ -39,14 +39,6 @@ nums.forEach(function(e){
     })
 })
 
-
-
-// if(res.value == undefined){
-//     res.style.opacity = 0.5
-// }
-// else{
-//     res.style.opacity = 1
-// }
 
 
 
